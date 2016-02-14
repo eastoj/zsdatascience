@@ -1,0 +1,7 @@
+phase 1 addons
+
+# things we need to do
+
+1. check the UI
+2. run the UI
+3. submit the UI
