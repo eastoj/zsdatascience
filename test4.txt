@@ -2,3 +2,10 @@ This is test 4
 It is mainly to see if i can move from the text editor to the CL to Github
 I am editing this file to see what happens when i pull it down to the Git UI
 what happens when i add text here? once i save it does it appear in the CLI?
+
+test 2
+test 3
+
+test 4a
+
+test 4b, pushing 2 files to git
