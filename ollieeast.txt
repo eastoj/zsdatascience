@@ -1,0 +1,37 @@
+mkdir test
+cd test
+git init
+echo “Git is good” > a.txt
+git add a.txt
+git status
+git commit –m “Commit a.txt”
+git status
+
+mkdir subtest
+cd subtest
+git init
+echo "Git is ace" > b.txt
+echo "Git is awesome" > a1.txt
+echo "Git is cool" > a2.txt
+git add --all
+git status
+git commit -m "commiting a few files"
+git log --pretty=oneline
+
+
+git remote add origin https://github.com/eastoj/zsdatascience.git 
+git remote -v
+echo "Github is awesome" >> a.txt
+git add a.txt
+git diff –-cached a.txt
+git commit -m "new line entered"
+git push origin master
+
+
+touch a1.txt
+echo “new text” > a1.txt
+git add a1.txt
+git reset --mixed
+echo “very new text” > a1.txt
+git commit –a -m “newest version of a1.txt committed”
+git reset –hard
