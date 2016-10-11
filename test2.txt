@@ -1,5 +1,0 @@
-test2
-
-Lets see if i can commit this to git!
-
-Test to see if i can pull only one file to the CLI #2
